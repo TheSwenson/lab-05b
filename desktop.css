@@ -1,0 +1,184 @@
+@media screen and (min-width: 961px) {
+    body {
+      width: 90%;
+      height: 768px;
+      margin: 0px auto 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+    p {
+      text-align: center;
+      position: relative;
+      top: 50%;
+        margin-top: -12px;
+        font-size: 24px;
+    }
+    header {
+      box-sizing: border-box;
+      border-left: 1px solid #03035f;
+      border-right: 1px solid #03035f;
+      border-top: 1px solid #03035f;
+      background-color: rgb(92, 20, 12);
+      width: 100%;
+      height: 100px;
+      margin-bottom: -68px;
+      box-sizing: border-box;
+    }
+    aside {
+      box-sizing: border-box;
+      border: 1px solid #333366;
+      border-right: none;
+      background-color: rgb(73, 30, 75);
+      width: 20.83%;
+      height: 600px;
+     
+    }
+    #main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 79.16%;
+      justify-content: flex-start;
+    }
+    section {
+      box-sizing: border-box;
+      border: 1px solid #000000;
+      background-color: rgb(114, 250, 227);
+      width: 50%;
+      height: 200px;
+      /* float: left; */
+    }
+    section:nth-child(odd) {
+      border-right: none;
+    }
+    body section:nth-child(odd) {
+      background-color: #2aafa8;
+    }
+    body div section:nth-child(even) {
+      background-color: #6941a8;
+    }
+    #box section {
+      width: 25%;
+      height: 250px;
+      border-top: none;
+    }
+    #box section:nth-child(odd) {
+      border-right: 1px solid #333366;
+    }
+    div section:nth-child(2),
+    div section:nth-child(3),
+    div section:nth-child(4) {
+      border-left: none;
+    }
+    #box {
+      flex-wrap: wrap;
+      display: flex;
+      box-sizing: border-box;
+      width: 100%;
+      height: 250px;
+     /*  float: left; 
+     
+      */
+    }
+    footer {
+      box-sizing: border-box;
+      border: 1px solid #333366;
+      border-top: none;
+      background-color: rgb(205, 218, 94);
+      width: 100%;
+      height: 150px;
+      /* float: left; */
+    }
+    #box section {
+      background-color: lightblue;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 960px) {
+    body {
+      width: 90%;
+      height: 768px;
+      margin: 0px auto 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+    p {
+      text-align: center;
+      position: relative;
+        top: 50%;
+        font-size: 24px;
+      margin-top: -12px;
+    }
+    header {
+      box-sizing: border-box;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-top: 1px solid black;
+      background-color: #3b20d3;
+      width: 100%;
+      height: 100px;
+      margin-bottom: -68px;
+      box-sizing: border-box;
+    }
+    aside {
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-right: none;
+      background-color: #c93f15;
+      width: 20.83%;
+      height: 600px;
+      
+    }
+    #main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 79.16%;
+      justify-content: flex-start;
+    }
+    section {
+      box-sizing: border-box;
+      border: 1px solid black;
+      background-color: #661a3a;
+      width: 50%;
+      height: 200px;
+     
+    }
+    section:nth-child(odd) {
+      border-right: none;
+      background-color: #96da56;
+    }
+    #box section {
+      width: 25%;
+      height: 250px;
+      border-top: none;
+    }
+    #box section:nth-child(odd) {
+      border-right: 1px solid black;
+    }
+    #box section:nth-child(2),
+    #box section:nth-child(3),
+    #box section:nth-child(4) {
+      border-left: none;
+    }
+    #box {
+      box-sizing: border-box;
+      width: 100%;
+      height: 250px;
+      
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #box section {
+      background-color: rgb(154, 157, 180);
+    }
+    footer {
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-top: none;
+      background-color: #d8d8d8;
+      width: 100%;
+      height: 150px;
+      
+    }
+  }
